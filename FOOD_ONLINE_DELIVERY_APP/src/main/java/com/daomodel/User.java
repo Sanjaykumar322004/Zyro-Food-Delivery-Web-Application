@@ -71,96 +71,49 @@ public class User {
 	}
 
 
-
-
-
 	public void setemail(String email) {
 		this.email = email;
 	}
-
-
-
 
 
 	public String getphone() {
 		return phone;
 	}
 
-
-
-
-
 	public void setphone(String phone) {
 		this.phone = phone;
 	}
-
-
-
-
 
 	public String getaddress() {
 		return address;
 	}
 
-
-
-
-
 	public void setaddress(String address) {
 		this.address = address;
 	}
-
-
-
-
 
 	public String getrole() {
 		return role;
 	}
 
-
-
-
-
 	public void setrole(String role) {
 		this.role = role;
 	}
-
-
-
-
 
 	public Timestamp getcreated_date() {
 		return created_date;
 	}
 
-
-
-
-
 	public void setcreated_date(Timestamp created_date) {
 		this.created_date = created_date;
 	}
 
-
-
-
-
 	public Timestamp getLast_login_date() {
 		return last_login_date;
 	}
-
-
-
-
-
 	public void setlast_login_date(Timestamp last_login_date) {
 		this.last_login_date = last_login_date;
 	}
-
-
-
-
 
 	public User(int user_id, String name, String user_name, String password, String email, String phone, String address,
 			String role) {
@@ -181,6 +134,5 @@ public class User {
 				+ ", created_date=" + created_date + ", last_login_date=" + last_login_date + "]";
 	}
 
-
-
 }
+
