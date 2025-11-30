@@ -16,7 +16,6 @@ import com.daoimpl.RestaurantImpl;
 import com.daomodel.Restaurant;
 
 
-
 @WebServlet("/getAllRestaurant")
 public class RestaurantServlet extends HttpServlet {
 	
@@ -40,4 +39,5 @@ public class RestaurantServlet extends HttpServlet {
 	}
 
 }
+
 
