@@ -1,4 +1,4 @@
-🍽 Food Delivery Application
+Zyro ⚡- Food Delivery Web Application
 
 A full-stack food delivery app built using Java, JSP, Servlets, and MySQL. Includes user login, menu browsing, cart system, GST-based billing, order placement, and admin management for menus and orders. Fully responsive with DB-driven menu and order handling.
 
