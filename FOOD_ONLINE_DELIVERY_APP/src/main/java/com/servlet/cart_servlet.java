@@ -60,9 +60,6 @@ public class cart_servlet extends HttpServlet {
 		int  quantity =Integer.parseInt( request.getParameter("quantity"));
 
 
-
-
-
 		MenuImpl mImpl = new MenuImpl();
 		Menu menu_item = mImpl.getMenu(menu_id);
 
@@ -79,12 +76,7 @@ public class cart_servlet extends HttpServlet {
 
 			cart.addToCart(Item);
 
-
-
-
 		}
-
-
 
 	}
 
@@ -106,18 +98,8 @@ public class cart_servlet extends HttpServlet {
 
 	}
 
-
-
-
-
-
-
-
-
-
-
-
 }
+
 
 
 
