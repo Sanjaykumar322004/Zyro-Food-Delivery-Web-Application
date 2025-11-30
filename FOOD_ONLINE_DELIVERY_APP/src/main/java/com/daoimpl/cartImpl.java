@@ -20,12 +20,7 @@ public class cartImpl implements  cartDao  {
 		else {
 			map.put(menuid, cartItem);
 		}
-
-		
-	
-		
-		
-		
+			
 	}
 
 	@Override
@@ -55,3 +50,4 @@ public class cartImpl implements  cartDao  {
 	}
 
 }
+
