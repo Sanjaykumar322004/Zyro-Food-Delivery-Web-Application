@@ -31,9 +31,6 @@ public class Menu {
 		this.imagePath = imagePath;
 	}
 
-
-
-
 	public int getMenu_id() {
 		return menu_id;
 	}
@@ -124,3 +121,4 @@ public class Menu {
 
 
 }
+
