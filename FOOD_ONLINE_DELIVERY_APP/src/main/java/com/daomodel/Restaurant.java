@@ -13,19 +13,9 @@ public class Restaurant {
 	private  String  image_path;
 
 	
-	
-	
 	public Restaurant() {
 		// TODO Auto-generated constructor stub
 	}
-
-
-
-
-	
-	
-
-
 
 
 	public int getrestaurant_id() {
@@ -33,13 +23,9 @@ public class Restaurant {
 	}
 
 
-
-
 	public void setrestaurant_id(int restaurant_id) {
 		this.restaurant_id = restaurant_id;
 	}
-
-
 
 
 	public String getname() {
@@ -47,188 +33,65 @@ public class Restaurant {
 	}
 
 
-
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
-
 
 	public String getaddress() {
 		return address;
 	}
 
 	
-	
 	public void setaddress(String address) {
 		this.address = address;
 	}
-
-
-
-
-
-
-
-
-
 
 	public String getphone() {
 		return phone;
 	}
 
-
-
-
-
-
-
-
-
-
 	public void setphone(String phone) {
 		this.phone = phone;
 	}
-
-
-
-
-
-
-
-
-
 
 	public String getrating() {
 		return rating;
 	}
 
-
-
-
-
-
-
-
-
-
 	public void setrating(String rating) {
 		this.rating = rating;
 	}
 
-
-
-
-
-
-
-
-
-
 	public String getcusine_type() {
 		return cusine_type;
 	}
-
-
-
-
-
-
-
-
-
-
+	
 	public void setcusine_type(String cusine_type) {
 		this.cusine_type = cusine_type;
 	}
-
-
-
-
-
-
-
-
-
 
 	public String getisActive() {
 		return isActive;
 	}
 
-
-
-
-
-
-
-
-
-
 	public void setisActive(String isActive) {
 		this.isActive = isActive;
 	}
-
-
-
-
-
-
-
-
-
-
 	public String getestimated_time_arival() {
 		return estimated_time_arival;
 	}
-
-
-
-
-
-
-
-
-
 
 	public void setestimated_time_arival(String estimated_time_arival) {
 		this.estimated_time_arival = estimated_time_arival;
 	}
 
-
-
-
-
-
-
-
-
-
 	public int getuser_id() {
 		return user_id;
 	}
 
-
-
-
-
-
-
-
-
-
 	public void setuser_id(int user_id) {
 		this.user_id = user_id;
 	}
-
-
-
-
-
-
-
-
-
 
 	public String getimage_path() {
 		return image_path;
@@ -257,8 +120,6 @@ public class Restaurant {
 	}
 
 
-
-
 	@Override
 	public String toString() {
 		return "Restaurant [Restaurant_ID=" + restaurant_id + ", Name=" + name + ", address=" + address + ", phone="
@@ -271,3 +132,4 @@ public class Restaurant {
 	
 
 }
+
