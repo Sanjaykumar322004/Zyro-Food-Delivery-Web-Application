@@ -605,19 +605,6 @@ function submitCheckout() {
 }
 </script>
 
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </body>
 </html>
+
